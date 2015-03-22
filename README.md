@@ -15,7 +15,7 @@ xmlwriter, xsl, zip, zlib
 
 #### How To Use
 ```
-Access server from browser at http://127.0.0.1/:8080/
+Access server from browser at http://127.0.0.1:8080/
 ```
 
 #### Credentials
