@@ -13,6 +13,11 @@ xmlwriter, xsl, zip, zlib
 * nodejs 0.6.12
 * npm 1.1.4
 
+#### How To Use
+```
+Access server from browser at http://127.0.0.1/:8080/
+```
+
 #### Credentials
 
 * Apache:
