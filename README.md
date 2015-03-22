@@ -1,4 +1,4 @@
-# slamp_server
+# sLAMP Server
 
 This is a simple LAMP server for quick and dirty development with Vagrant.
 
@@ -12,3 +12,17 @@ Packages:
 xmlwriter, xsl, zip, zlib
 * nodejs 0.6.12
 * npm 1.1.4
+
+#### Credentials
+
+* Apache:
+```
+Document root: /var/www
+```
+
+* MySQL
+```
+Host: localhost
+Username: root
+(Empty password)
+```
