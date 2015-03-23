@@ -40,5 +40,12 @@ sudo service apache2 restart
 # Server Stuff
 sudo rm -rf /var/www
 sudo ln -sf /vagrant/var/www /var/www
-echo "DirectoryIndex index.php" > /var/www/.htaccess
-echo "(simple)LAMP Development Server" > /var/www/index.php
+if [ ! -f /var/www/.htaccess ]
+    then
+        echo "DirectoryIndex index.php" > /var/www/.htaccess
+fi
+
+if [ ! -f /var/www/index.php ]
+    then
+        echo "(simple)LAMP Development Server" > /var/www/index.php
+fi
