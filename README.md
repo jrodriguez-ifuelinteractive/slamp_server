@@ -12,6 +12,7 @@ Packages:
 xmlwriter, xsl, zip, zlib
 * nodejs 0.6.12
 * npm 1.1.4
+* MongoDB v3.0.1
 
 #### How To Use
 ```

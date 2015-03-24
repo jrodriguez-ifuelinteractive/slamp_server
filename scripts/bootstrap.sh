@@ -36,6 +36,14 @@ rm -rf /vagrant/scripts/var/tmp/*
 
 sudo service apache2 restart
 
+# MongoDB
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+echo "deb http://repo.mongodb.org/apt/ubuntu "$(lsb_release -sc)"/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
+sudo apt-get update
+sudo apt-get install -y mongodb-org
+sudo yes '' | pecl install mongo
+sudo echo "extension=mongo.so" > /etc/php5/conf.d/mongo.ini
+sudo service apache2 restart
 
 # Server Stuff
 sudo rm -rf /var/www
