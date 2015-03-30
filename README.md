@@ -14,7 +14,11 @@ xmlwriter, xsl, zip, zlib
 * npm 1.1.4
 * MongoDB v3.0.1
 
-#### How To Use
+#### Usage
+Download from [here](https://github.com/jrodriguez-ifuelinteractive/slamp_server/archive/master.zip) and unpack. Navigate to unpacked directory and enter the command
+```
+vagrant up
+```
 ```
 Access server from browser at http://127.0.0.1:8080/
 ```
