@@ -15,7 +15,7 @@ xmlwriter, xsl, zip, zlib
 * MongoDB v3.0.1
 
 #### Usage
-Download from [here](https://github.com/jrodriguez-ifuelinteractive/slamp_server/archive/master.zip) and unpack. Navigate to unpacked directory and enter the command
+Download from [here](https://github.com/jrodriguez-ifuelinteractive/slamp_server/archive/1.0.0.zip) and unpack. Navigate to unpacked directory and enter the command
 ```
 vagrant up
 ```
