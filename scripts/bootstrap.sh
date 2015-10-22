@@ -15,7 +15,7 @@ sudo apt-get install -y libapache2-mod-php5
 sudo apt-get install -y php5-mysqlnd php5-curl php5-xdebug php5-gd php5-intl php-pear php5-imap php5-mcrypt php5-ming php5-ps php5-pspell php5-recode php5-snmp php5-sqlite php5-tidy php5-xmlrpc php5-xsl php-soap
 
 sudo php5enmod mcrypt
-sudo php5enmod rewrite
+sudo a2enmod rewrite
 
 # MySQL
 sudo DEBIAN_FRONTEND=noninteractive apt-get install -f -y mysql-server
@@ -26,7 +26,7 @@ sudo apt-get install -y nodejs npm
 # Setup PHPMyAdmin
 cd /vagrant/scripts/var/tmp
 rm -rf /vargrant/scripts/var/tmp/*
-wget http://downloads.sourceforge.net/project/phpmyadmin/phpMyAdmin/4.3.12/phpMyAdmin-4.3.12-english.zip
+wget http://files.phpmyadmin.net/phpMyAdmin/4.3.12/phpMyAdmin-4.3.12-english.zip 
 unzip phpMyAdmin-4.3.12-english.zip
 sudo mv /vagrant/scripts/var/tmp/phpMyAdmin-4.3.12-english /opt
 sudo cp /vagrant/scripts/var/config.inc.php /opt/phpMyAdmin-4.3.12-english
