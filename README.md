@@ -22,6 +22,10 @@ vagrant up
 ```
 Access server from browser at http://127.0.0.1:8080/
 ```
+PHPMyAdmin
+```
+http://127.0.0.1:8080/phpmyadmin/
+```
 
 #### Credentials
 
